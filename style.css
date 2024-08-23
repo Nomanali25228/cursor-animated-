@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background:#250821;
+  
+    font-family: Arial, sans-serif;
+  }
+  #banner {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  #banner div {
+    position: relative;
+    z-index: 1;
+  }
+  h1 {
+    font-size: 26px;
+    text-shadow: 1px 2px #00000075;
+  }
+  p {
+    font-size: 14px;
+    text-shadow: 1px 2px #00000075;
+  }
+  #canvas {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  @media screen and (min-width: 640px) {
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
